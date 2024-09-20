@@ -13,6 +13,7 @@ module.exports = {
       black: "#000000",
       lightBlack: "rgba(0, 0, 0, 0.5)",
       lightGrey: "#EDEDED",
+      darkGrey:"#999999",
     },
     fontSize: {
       xxs: "10px",
@@ -20,8 +21,11 @@ module.exports = {
       sm: "13px",
       md: "14px",
       base: "16px",
+      "0xl":"17px",
       "1xl": "18px",
+      "xl":"20px",
       "2xl": "24px",
+      "3xl":"30px",
       "4xl": "26px",
       "5xl": "40px",
       "6xl": "117px",
@@ -30,9 +34,6 @@ module.exports = {
       height: {
         hxl: "626px",
         hil: "655px",
-      },
-      minHeight: {
-        cardMin: '465px',
       },
 
       backgroundImage: {
