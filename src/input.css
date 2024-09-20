@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    @apply text-md md:text-base bg-white;
+    @apply text-md md:text-base ;
     font-family: 'Balto', sans-serif;
 }
 .section {
     @apply max-w-[1200px] mx-auto px-2.5;
 }
+
 
