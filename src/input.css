@@ -1,11 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import ("https://use.typekit.net/jku2ujd.css");
+@import url("https://use.typekit.net/jku2ujd.css");
+
 
 body {
-    @apply text-md md:text-base font-sans font-normal text-black bg-white;
-   
+    @apply text-md md:text-base font-normal text-black bg-white font-sans;
+
+
 }
 .section {
     @apply max-w-[1200px] mx-auto px-2.5;
