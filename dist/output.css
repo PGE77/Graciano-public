@@ -1385,6 +1385,10 @@ body{
     margin-right: 4rem;
   }
 
+  .lg\:mb-0{
+    margin-bottom: 0px;
+  }
+
   .lg\:h-16{
     height: 4rem;
   }
@@ -1419,6 +1423,10 @@ body{
 
   .lg\:items-end{
     align-items: flex-end;
+  }
+
+  .lg\:justify-start{
+    justify-content: flex-start;
   }
 
   .lg\:justify-end{
