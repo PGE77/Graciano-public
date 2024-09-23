@@ -659,12 +659,40 @@ video {
   margin-top: 2rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-3\.5{
+  margin-bottom: 0.875rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .block{
   display: block;
 }
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .size-1\.5{
@@ -685,6 +713,11 @@ video {
 .size-9{
   width: 2.25rem;
   height: 2.25rem;
+}
+
+.size-10{
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .h-16{
@@ -771,6 +804,14 @@ video {
   width: 100%;
 }
 
+.w-56{
+  width: 14rem;
+}
+
+.w-1\/6{
+  width: 16.666667%;
+}
+
 .max-w-none{
   max-width: none;
 }
@@ -811,6 +852,10 @@ video {
 
 .items-start{
   align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
@@ -865,6 +910,10 @@ video {
   gap: 2.25rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -885,6 +934,21 @@ video {
 
 .border{
   border-width: 1px;
+}
+
+.border-darkYellow{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 239 46 / var(--tw-border-opacity));
+}
+
+.border-lightGrey{
+  --tw-border-opacity: 1;
+  border-color: rgb(237 237 237 / var(--tw-border-opacity));
+}
+
+.border-darkGrey{
+  --tw-border-opacity: 1;
+  border-color: rgb(217 217 217 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -927,6 +991,20 @@ video {
   background-color: rgb(255 255 11 / var(--tw-bg-opacity));
 }
 
+.bg-darkYellow{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 239 46 / var(--tw-bg-opacity));
+}
+
+.bg-darkGrey{
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-blackGradient{
   background-image: radial-gradient(ellipse farthest-side at center bottom, #D8D8D8 0%, #E2DFDF 0%, #FFFFFF 0%, #FFFFFF 0%, #F3F3F2 60%, #FFFFFF 80%);
 }
@@ -952,6 +1030,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-12{
+  padding: 3rem;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -975,6 +1057,36 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .pb-16{
@@ -1007,6 +1119,46 @@ video {
 
 .pt-16{
   padding-top: 4rem;
+}
+
+.pb-1{
+  padding-bottom: 0.25rem;
+}
+
+.pt-0\.5{
+  padding-top: 0.125rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
+}
+
+.pr-3\.5{
+  padding-right: 0.875rem;
+}
+
+.pr-7{
+  padding-right: 1.75rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pb-3\.5{
+  padding-bottom: 0.875rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .text-center{
@@ -1097,6 +1249,10 @@ video {
   line-height: 2.25rem;
 }
 
+.leading-7{
+  line-height: 1.75rem;
+}
+
 .tracking-tight{
   letter-spacing: -0.025em;
 }
@@ -1172,6 +1328,14 @@ body{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.group:hover .group-hover\:flex{
+  display: flex;
+}
+
+.group:hover .group-hover\:hidden{
+  display: none;
+}
+
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
 }
@@ -1221,6 +1385,10 @@ body{
     margin-right: 4rem;
   }
 
+  .lg\:h-16{
+    height: 4rem;
+  }
+
   .lg\:w-1\/4{
     width: 25%;
   }
@@ -1233,8 +1401,28 @@ body{
     width: 60%;
   }
 
+  .lg\:w-1{
+    width: 0.25rem;
+  }
+
+  .lg\:w-1\/6{
+    width: 16.666667%;
+  }
+
+  .lg\:w-1\/3{
+    width: 33.333333%;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
+  }
+
+  .lg\:items-end{
+    align-items: flex-end;
+  }
+
+  .lg\:justify-end{
+    justify-content: flex-end;
   }
 
   .lg\:px-4{
@@ -1252,6 +1440,18 @@ body{
 
   .lg\:pt-16{
     padding-top: 4rem;
+  }
+
+  .lg\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .lg\:pt-32{
+    padding-top: 8rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
   }
 
   .lg\:text-1xl{
