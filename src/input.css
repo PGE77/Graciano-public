@@ -1,12 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import ("https://use.typekit.net/jku2ujd.css");
+
 body {
-    @apply text-md md:text-base ;
-    font-family: 'Balto', sans-serif;
+    @apply text-md md:text-base font-sans font-normal text-black bg-white;
+   
 }
 .section {
     @apply max-w-[1200px] mx-auto px-2.5;
 }
+
 
 

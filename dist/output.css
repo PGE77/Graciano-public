@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: balto;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -653,6 +653,14 @@ video {
   margin-top: 2rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -669,6 +677,11 @@ video {
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
 }
 
 .size-9 {
@@ -744,14 +757,6 @@ video {
   width: 4rem;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-64 {
   width: 16rem;
 }
@@ -772,6 +777,10 @@ video {
   max-width: none;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -788,6 +797,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -834,6 +847,10 @@ video {
   gap: 0.625rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-3\.5 {
   gap: 0.875rem;
 }
@@ -877,9 +894,24 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-grey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 243 243 / var(--tw-bg-opacity));
+}
+
+.bg-indigo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity));
+}
+
 .bg-lightGrey {
   --tw-bg-opacity: 1;
   background-color: rgb(237 237 237 / var(--tw-bg-opacity));
+}
+
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 158 11 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -890,6 +922,11 @@ video {
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 11 / var(--tw-bg-opacity));
+}
+
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-blackGradient {
@@ -922,6 +959,16 @@ video {
   padding-right: 0.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -936,20 +983,16 @@ video {
   padding-bottom: 4rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
 .pb-96 {
   padding-bottom: 24rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pr-3 {
-  padding-right: 0.75rem;
 }
 
 .pr-4 {
@@ -968,20 +1011,20 @@ video {
   padding-top: 4rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.font-serif {
+  font-family: joly-headline;
 }
 
 .text-0xl {
@@ -1081,13 +1124,18 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-darkGrey {
+  --tw-text-opacity: 1;
+  color: rgb(217 217 217 / var(--tw-text-opacity));
+}
+
 .text-lightBlack {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.text-darkGrey {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(153 153 153 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1105,17 +1153,19 @@ video {
 }
 
 body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  font-family: balto;
   font-size: 14px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
   body {
     font-size: 16px;
   }
-}
-
-body {
-  font-family: 'Balto', sans-serif;
 }
 
 .section {
@@ -1185,6 +1235,14 @@ body {
     width: 25%;
   }
 
+  .lg\:w-2\/5 {
+    width: 40%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1196,6 +1254,14 @@ body {
 
   .lg\:pr-7 {
     padding-right: 1.75rem;
+  }
+
+  .lg\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .lg\:pt-16 {
+    padding-top: 4rem;
   }
 
   .lg\:text-1xl {
@@ -1220,5 +1286,6 @@ body {
     padding-top: 20rem;
   }
 }
+
 
 

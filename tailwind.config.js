@@ -13,7 +13,10 @@ module.exports = {
       black: "#000000",
       lightBlack: "rgba(0, 0, 0, 0.5)",
       lightGrey: "#EDEDED",
-      darkGrey:"#999999",
+      darkGrey:"#D9D9D9",
+      indigo:"rgb(67, 56, 202)",
+      orange:"rgb(245, 158, 11)",
+      green:"rgb(22, 163, 74)",
     },
     fontSize: {
       xxs: "10px",
@@ -48,8 +51,8 @@ module.exports = {
         cardShadow: "0px 2px 15px 0px rgba(0, 0, 0, 0.15)",
       },
       fontFamily: {
-        sans: ["Helvetica", "Arial", "sans-serif"],
-        arial: ["Arial"],
+        sans: ["balto"],
+        serif: ["joly-headline"],
       },
     },
   },
